@@ -1,0 +1,265 @@
+.body {
+    background-color: #4b4c4d;
+
+}
+
+/* 導覽列捲動 */
+.navbar {
+    position: sticky !important;
+    top: 0;
+    z-index: 200;
+}
+
+.nav-item {
+    font-size: larger;
+}
+
+/* 右下角定位 */
+.btt {
+    position: fixed;
+    bottom: 4%;
+    right: 2%;
+    background-color: #fff;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.btt i {
+    font-size: 30px;
+    color: #8b8b8b;
+}
+
+/*Footer Css註解*/
+.footer-clean {
+    padding: 50px 0;
+    background-color: #e9e9e9;
+    color: #4b4c4d;
+}
+
+.footer-clean h3 {
+    margin-top: 0;
+    margin-bottom: 12px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.footer-clean ul {
+    padding: 0;
+    list-style: none;
+    line-height: 1.6;
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+.footer-clean ul a {
+    color: inherit;
+    text-decoration: none;
+    opacity: 0.8;
+}
+
+.footer-clean ul a:hover {
+    opacity: 1;
+}
+
+.footer-clean .item.social {
+    text-align: right;
+}
+
+@media (max-width:767px) {
+    .footer-clean .item {
+        text-align: center;
+        padding-bottom: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .footer-clean .item.social {
+        text-align: center;
+    }
+}
+
+.footer-clean .item.social>a {
+    font-size: 24px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    margin-left: 10px;
+    margin-top: 22px;
+    color: inherit;
+    opacity: 0.75;
+}
+
+.footer-clean .item.social>a:hover {
+    opacity: 0.9;
+}
+
+@media (max-width:991px) {
+    .footer-clean .item.social>a {
+        margin-top: 40px;
+    }
+}
+
+@media (max-width:767px) {
+    .footer-clean .item.social>a {
+        margin-top: 10px;
+    }
+}
+
+.footer-clean .copyright {
+    margin-top: 14px;
+    margin-bottom: 0;
+    font-size: 13px;
+    opacity: 0.6;
+}
+
+.cart-container {
+    background-color: #F4F4F4;
+}
+
+.cart-title-item {
+    height: auto;
+    width: 1200px;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    box-shadow: 2px 2px 4px #888888;
+}
+
+.cart-title {
+    font-size: 300%;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+.select-all {
+    height: 40px;
+    width: 1000px;
+    margin-left: 50px;
+}
+
+.divider {
+    width: 1100px;
+    height: 2px;
+    background-color: #B9B9B9;
+    margin-bottom: 20px;
+}
+
+.item-container {
+    height: 150px;
+    width: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px;
+}
+
+.item-image {
+    height: 100px;
+    width: 100px;
+}
+
+.item-name {
+    font-size: 1.2rem;
+}
+
+.item-price {
+    font-size: 1.2rem;
+}
+
+.DeliveryMethod {
+    height: auto;
+    width: 1200px;
+    background-color: #FFFFFF;
+    box-shadow: 2px 2px 4px #888888;
+    padding: 20px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.DeliveryMethod-Title {
+    height: auto;
+    width: 500px;
+    margin-left: 70px;
+    font-size: 120%;
+}
+
+.sub-DeliveryMethod {
+    height: auto;
+    width: 600px;
+    padding: 0;
+    flex-direction: row;
+    display: flex;
+    margin-left: 50px;
+    justify-content: space-around;
+    align-content: start;
+    margin-top: 20px;
+    font-size: 120%;
+}
+
+
+.PaymentMethod {
+    height: auto;
+    width: 1200px;
+    background-color: #FFFFFF;
+    box-shadow: 2px 2px 4px #888888;
+    padding: 20px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.sub-PaymentMethod {
+    height: auto;
+    width: 500px;
+    margin-left: 70px;
+    font-size: 120%;
+}
+
+.coupon {
+    height: auto;
+    width: 1200px;
+    margin: auto;
+}
+
+
+.checkout {
+    height: 200px;
+    width: 1200px;
+    display: flex;
+    background-color: #FFFFFF;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 150%;
+    margin: auto;
+    margin-top: 20px;
+    box-shadow: 2px 2px 4px #888888;
+
+}
+
+.sub-checkout {
+    width: 200px;
+    height: auto;
+    flex-direction: column;
+    margin-left: 80px;
+
+}
+
+.TotalPrice {
+    width: 800px;
+    height: auto;
+    display: flex;
+    font-size: 150%;
+    justify-content: space-around;
+}
